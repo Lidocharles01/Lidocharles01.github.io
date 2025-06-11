@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lido Charles - Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-gradient">Lido Charles</span>
+        </div>
+        <button class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-card">
+                <img src="lido4.png" alt="Lido Charles" class="hero-image-content" loading="eager" width="400" height="400">
+            </div>
+            <div class="hero-content">
+                <h1>Hi, I'm Lido</h1>
+                <h2>Software Developer</h2>
+                <p>Passionate about creating efficient and scalable software solutions</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="Resume Lido Charles.pdf" class="btn secondary" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-description">
+                        <p class="lead-text">Results-driven Software Developer with hands-on experience in Python, Java, and full-stack web development.</p>
+                        <p class="detail-text">Skilled in both frontend and backend development with strong object-oriented programming knowledge.</p>
+                        <p class="detail-text">Passionate about learning and solving complex problems.</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-section">
+                            <h3 class="highlight-title">Experience</h3>
+                            <ul class="experience-list">
+                                <li class="highlight-item">
+                                    <span class="highlight-icon">💻</span>
+                                    <span class="highlight-text">IT Assistant at XLRI Delhi – NCR</span>
+                                </li>
+                                <li class="highlight-item">
+                                    <span class="highlight-icon">💼</span>
+                                    <span class="highlight-text">Full Stack Developer Intern at Loxpy Software Solutions</span>
+                                </li>
+                                <li class="highlight-item">
+                                    <span class="highlight-icon">☁️</span>
+                                    <span class="highlight-text">Cloud and DevOps Intern, IPSR SOLUTIONS Ltd</span>
+                                </li>
+                            </ul>
+                        </div>
+                            <div class="highlight-section">
+                            <h3 class="highlight-title">Education</h3>
+                            <ul class="education-list">
+                                <li class="highlight-item">
+                                    <span class="highlight-icon">🎓</span>
+                                    <span class="highlight-text">Master of Computer Applications</span>
+                                </li>
+                                <li class="highlight-item">
+                                    <span class="highlight-icon">🎓</span>
+                                    <span class="highlight-text">Bachelor of Computer Applications</span>
+                                </li>
+                                <li class="highlight-item">
+                                    <span class="highlight-icon">📚</span>
+                                    <span class="highlight-text">Higher Secondary School</span>
+                                </li>
+                                <li class="highlight-item">
+                                    <span class="highlight-icon">🎓</span>
+                                    <span class="highlight-text">SSLC</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image-container" onclick="handleCardClick(event)">
+                    <div class="image-overlay"></div>
+                    <img src="l5.jpg" alt="About Me" class="section-image" loading="lazy" width="500" height="375">
+                    <div class="image-effects">
+                        <div class="glow-effect"></div>
+                        <div class="shine-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>React.js</li>
+                        <li>Django</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud and Devops</h3>
+                    <ul>
+                        <li>Aws(EC2,S3)</li>
+                        <li>CI/CD(Basic)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Software Development Concepts            
+                    </h3>
+                    <ul>
+                        <li>SDLC</li>
+                        <li>Agile</li>
+                        <li>OOPS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Online Examination System</h3>
+                        <p>Created a remote exam platform using Python and Django.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>HTML/CSS</span>
+                            <span>Bootstrap</span>
+                            
+                        </div>
+                        <a href="https://github.com/Lidocharles01/Online_Examination_System" class="btn secondary">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Diabetic Prediction System</h3>
+                        <p>Django-based diabetes prediction using logistic regression.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <a href="https://github.com/Lidocharles01/Diabetes_Prediction_System" class="btn secondary">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Bus Booking System</h3>
+                        <p>Developed a web-based bus ticket reservation and management system for seamless online booking.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>SQL</span>
+                            <span>HTML/CSS</span>
+                           
+                        </div>
+                        <a href="https://github.com/Lidocharles01/Bus-Booking-system" class="btn secondary">View on GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Online Cake Shop</h3>
+                        <p>Designed an e-commerce platform for browsing and purchasing cakes online.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>HTML/CSS</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <a href="https://github.com/Lidocharles01/OnlineCakeShop" class="btn secondary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>lidocharles01@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>New Delhi, India</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/lido-charles" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Lidocharles01" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/am_lido_" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Lido Charles. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu functionality
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Theme toggle functionality
+        const themeToggle = document.querySelector('.theme-toggle');
+        const body = document.body;
+        const darkModeKey = 'darkMode';
+
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem(darkModeKey);
+        if (savedTheme) {
+            body.classList.toggle('dark', savedTheme === 'true');
+        }
+
+        // Toggle dark mode
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark');
+            localStorage.setItem(darkModeKey, body.classList.contains('dark'));
+        });
+
+        // Card click animation
+        const heroCard = document.querySelector('.hero-card');
+        
+        heroCard.addEventListener('click', () => {
+            // Remove any existing animation
+            heroCard.style.animation = 'none';
+            heroCard.offsetHeight; // Trigger reflow
+            
+            // Add click animation
+            heroCard.style.animation = 'rotateClick 1s ease-in-out forwards';
+            
+            // Reset animation after completion
+            setTimeout(() => {
+                heroCard.style.animation = 'rotate360 8s linear infinite';
+            }, 1000);
+        });
+    </script>
+    <script>
+        function handleCardClick(event) {
+            const card = event.currentTarget;
+            const rect = card.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const clickX = event.clientX;
+            
+            // Remove previous animations
+            card.classList.remove('rotating', 'left', 'right');
+            
+            // Add 360 rotation animation
+            card.classList.add('rotating');
+            
+            // Determine direction based on click position
+            if (clickX < centerX) {
+                // Clicked on left side
+                card.classList.add('left');
+            } else {
+                // Clicked on right side
+                card.classList.add('right');
+            }
+            
+            // Reset animations after completion
+            setTimeout(() => {
+                card.classList.remove('rotating', 'left', 'right');
+            }, 1000);
+        }
+    </script>
+    <script src="script.js"></script>
+    </body>
+</html>
